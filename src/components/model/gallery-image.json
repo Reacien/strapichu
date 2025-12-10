@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_model_gallery_images",
+  "info": {
+    "displayName": "GalleryImage",
+    "icon": "landscape"
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images",
+        "videos"
+      ]
+    },
+    "caption": {
+      "type": "string",
+      "default": "(e.g., \"Front View\", \"Back View\")",
+      "required": true
+    }
+  },
+  "config": {}
+}

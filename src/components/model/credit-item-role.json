@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_model_credit_item_roles",
+  "info": {
+    "displayName": "credit-item-role",
+    "icon": "paint"
+  },
+  "options": {},
+  "attributes": {
+    "role": {
+      "type": "string",
+      "required": true
+    }
+  },
+  "config": {}
+}

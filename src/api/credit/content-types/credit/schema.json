@@ -1,0 +1,39 @@
+{
+  "kind": "collectionType",
+  "collectionName": "credits",
+  "info": {
+    "singularName": "credit",
+    "pluralName": "credits",
+    "displayName": "Credit"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "default": "Person's name",
+      "required": true
+    },
+    "role": {
+      "type": "string",
+      "default": "(Artist, Rigger, etc.)",
+      "required": true
+    },
+    "bio": {
+      "type": "blocks"
+    },
+    "socialUrl": {
+      "type": "string",
+      "default": "twitter/instagram/website"
+    },
+    "profileImage": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images"
+      ]
+    }
+  }
+}

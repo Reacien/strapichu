@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "subathons",
+  "info": {
+    "singularName": "subathon",
+    "pluralName": "subathons",
+    "displayName": "Subathon"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "currentSubCount": {
+      "type": "integer",
+      "required": true,
+      "default": 0
+    },
+    "fallbackSubCount": {
+      "type": "integer",
+      "required": true,
+      "default": 0
+    },
+    "exactSubCount": {
+      "type": "decimal",
+      "default": 0
+    },
+    "edition": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

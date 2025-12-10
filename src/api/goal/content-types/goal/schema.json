@@ -1,0 +1,35 @@
+{
+  "kind": "collectionType",
+  "collectionName": "goals",
+  "info": {
+    "singularName": "goal",
+    "pluralName": "goals",
+    "displayName": "Goal"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "default": "Goal name",
+      "required": true,
+      "unique": true
+    },
+    "description": {
+      "type": "text"
+    },
+    "targetSubCount": {
+      "type": "integer",
+      "required": true
+    },
+    "isHidden": {
+      "type": "boolean",
+      "default": false
+    },
+    "completed": {
+      "type": "boolean"
+    }
+  }
+}

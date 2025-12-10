@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_model_credit_items",
+  "info": {
+    "displayName": "credit-item",
+    "icon": "oneToMany"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "roles": {
+      "type": "component",
+      "component": "model.credit-item-role",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

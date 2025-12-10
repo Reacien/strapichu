@@ -1,0 +1,50 @@
+{
+  "kind": "collectionType",
+  "collectionName": "models",
+  "info": {
+    "singularName": "model",
+    "pluralName": "models",
+    "displayName": "Model"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "order": {
+      "type": "integer",
+      "required": true,
+      "default": 0,
+      "unique": true
+    },
+    "thumbnail": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "name": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "description": {
+      "type": "text"
+    },
+    "debut": {
+      "type": "date"
+    },
+    "credits": {
+      "type": "component",
+      "component": "model.credit-item",
+      "repeatable": true
+    },
+    "gallery": {
+      "type": "component",
+      "component": "model.gallery-image",
+      "repeatable": true
+    }
+  }
+}
